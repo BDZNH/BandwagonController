@@ -64,6 +64,7 @@ int BandwagonController::getVPSInfo(std::string &response,int &httpcode)
 	temp = cHost + "getServiceInfo?veid=" + cVPSID + "&api_key=" + cPrivateKey;
 
 
+
 	/* Perform the request, res will get the return code */
 
 	curl_easy_setopt(curl, CURLOPT_URL, temp.c_str());

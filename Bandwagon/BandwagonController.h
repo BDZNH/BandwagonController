@@ -3,6 +3,8 @@
 
 #include <string>
 #include<curl/curl.h>
+
+
 namespace
 {
 	std::size_t callback(
